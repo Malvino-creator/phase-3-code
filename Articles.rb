@@ -1,4 +1,0 @@
-CREATE TABLE fun(
-    id INTEGER PRIMARY KEY,
-    name TEXT,
-)
