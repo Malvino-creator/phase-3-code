@@ -11,8 +11,5 @@ class Article
     def author
         author.name
     end
-    
-        
-
 
 end
