@@ -1,11 +1,7 @@
-require 'rubygems'
-require 'bundler/setup'
-
-# require your gems as usual
-require 'nokogiri'
+require 'pry'
 
 class Author
-  attr_reader  :name
+  attr_reader :name
 
 
   def initialize(name)
