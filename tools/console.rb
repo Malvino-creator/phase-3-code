@@ -9,9 +9,16 @@ end
 
 
 at1=Author.new("Author1")
-mag1=Magazine.new(at1,mag1, "Title2")
+mag1=Magazine.new("Mag1","Cat1")
+mag2=Magazine.new("Mag2","Cat1")
+mag3=Magazine.new("Mag3","Cat2")
+art1=Article.new(at1,mag1,"Title1")
 art2=Article.new(at1,mag1,"Title2")
 at1.add_article(mag1, "Title3")
+at1.add_article(mag1, "Title4")
+at1.add_article(mag1, "Title5")
+
+
 
 
 

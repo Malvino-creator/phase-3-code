@@ -12,6 +12,9 @@ class Author
   def magazines
     articles.map{|article|article.magazine}.uniq
   end
+  def topic_areas
+    magazines.map{|magazine|magazine.category}.uniq
+  end
 
 
 end
