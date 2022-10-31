@@ -37,9 +37,8 @@ class Magazine
 
   def contributing_authors
     main_authors = []
-    magazine_authors.tally.each{|key.value|value>2&&(main_authors<<key)}
+    magazine_authors.tally.each{|key
+    .value|value>2&&(main_authors<<key)}
+    main_authors
   end
-
-
-
 end
