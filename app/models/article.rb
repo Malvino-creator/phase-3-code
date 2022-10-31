@@ -15,4 +15,5 @@ class Article
         author.name
     end
 
+    
 end
